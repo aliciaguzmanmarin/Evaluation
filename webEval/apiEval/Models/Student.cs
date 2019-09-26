@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace webEval.Models
+namespace apiEval.Models
 {
     public class Student
     {
