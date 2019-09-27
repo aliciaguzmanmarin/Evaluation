@@ -16,5 +16,7 @@ namespace webEval.Models
         }
 
         public System.Data.Entity.DbSet<webEval.Models.Student> Students { get; set; }
+
+        public System.Data.Entity.DbSet<webEval.Models.Note> Notes { get; set; }
     }
 }

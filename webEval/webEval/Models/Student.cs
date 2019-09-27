@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace webEval.Models
 {
@@ -12,5 +13,7 @@ namespace webEval.Models
         public string Gender { get; set; }
         [Required]
         public string Birthday { get; set; }
+
+        public virtual ICollection<Note> Note { get; set; }
     }
 }
