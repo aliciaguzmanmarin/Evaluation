@@ -11,5 +11,7 @@ namespace apiEval.Models
         }
 
         public System.Data.Entity.DbSet<apiEval.Models.Student> Students { get; set; }
+
+        public System.Data.Entity.DbSet<apiEval.Models.Note> Notes { get; set; }
     }
 }
